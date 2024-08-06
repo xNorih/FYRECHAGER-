@@ -1,0 +1,40 @@
+clean = """
+
+                                                \033[1;39m┌────────────────────┐         
+                                                \033[1;32m║   \033[1;39m   Tools         \033[1;32m║          
+                                                \033[1;39m└────────────────────┘
+
+
+       \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0                                            \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/4jQnZbN9EM                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  You are using    : \033[1;32m FyreChanger*                                   \033[1;32m║
+       \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mMinecraft Section
+\033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mKatana SS Tool \033[1;31m[\033[1;33mWorking with clickers\033[1;31m] \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] 
+\033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mEzPing \033[1;31m[\033[1;33mUse at your own risk\033[1;31m]
+\033[1;31m[\033[1;39m3\033[1;31m] \033[1;32mMighty Solutions Temp Spoofer \033[1;31m[\033[1;33mUse at your own risk\033[1;31m]
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    """
+print(clean)
+
+
+# =======================[RUN]=======================#
+while True:
+    os.system('cls')
+    print(clean)
+    chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
+    if chon == 'E':
+        os.system('cls')
+        print("Leaving SS-Tool")
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
+    elif chon == '1':
+        webbrowser.open_new("https://www.mediafire.com/file/fzkswm766mu35dz/Katana_SS_Tool.zip/file")
+    elif chon == '2':
+        webbrowser.open_new("https://www.mediafire.com/file/jg25vzubtv324dg/ezping.zip/file")
+    elif chon == '3':
+        os.system("start https://www.mediafire.com/file/0gcr905qpet5ybb/Mighty+Solutions+Free+temp.7z/file")
+
+    else:
+        continue
