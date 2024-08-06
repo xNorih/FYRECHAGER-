@@ -1,4 +1,4 @@
-Obfuscation = """
+clean = """
 
 
                                    ██████╗██████╗ ███████╗██████╗ ██╗████████╗███████╗
@@ -17,7 +17,7 @@ Obfuscation = """
                               Report to us if you found any invite link here not working.
                                              Press any key to return.
 """
-print(Obfuscation)
+print(clean)
 while True:
     print(Obfuscation)
     msvcrt.getch()
