@@ -76,7 +76,7 @@ while True:
     if chon == '2':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
-        exec(requests.get('https://youtube.com/@norih').text)
+        webbrowser.open_new("https://youtube.com/@norih")
     if chon == '3':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
