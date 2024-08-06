@@ -33,7 +33,7 @@ while True:
     elif chon == '2':
         webbrowser.open_new("https://www.youtube.com/watch?v=RjOOYjuOYf0")
     elif chon == 'E':
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B?token=GHSAT0AAAAAACVUJWYEJXH7CLPHL25WBPV6ZVRTKEA').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
 
     else:
         continue
