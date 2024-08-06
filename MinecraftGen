@@ -11,9 +11,9 @@ clean = """
        \033[1;32m║                           \033[1;39m  You are using    : \033[1;32m FyreChanger+                                   \033[1;32m║
        \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
 
-\033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mMinecraft Section
 \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft MFA 
 \033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mMinecraft NFA
+\033[1;31m[\033[1;39mE\033[1;31m] \033[1;32mHome
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     """
 print(clean)
@@ -24,10 +24,10 @@ while True:
     os.system('cls')
     print(clean)
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
-    if chon == '-':
+    if chon == 'E':
         os.system('cls')
         print("Leaving SS-Tool")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
     elif chon == '1':
         webbrowser.open_new("https://www.youtube.com/watch?v=RjOOYjuOYf0")
     elif chon == '2':
