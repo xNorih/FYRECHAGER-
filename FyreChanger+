@@ -25,7 +25,7 @@ except:
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 def windowtitle(a):
     os.system(f"title {a}")
-windowtitle("Delusion 1.1.0")
+windowtitle("FyreChanger+")
 banner = f"""
 
                                                 Press ENTER to continue.                                                                     
@@ -51,7 +51,7 @@ nig = """
 
 
                                                 \033[1;39m┌────────────────────┐         
-                                                \033[1;32m║   \033[1;39m   Welcome to FyreChanger+!      \033[1;32m║          
+                                                \033[1;32m║\033[1;39m   FyreChanger+!    \033[1;32m║          
                                                 \033[1;39m└────────────────────┘                                                                            
 
 
@@ -73,17 +73,17 @@ while True:
         os.system('cls')
         print("                                              \033[1;39mLoading Minecraft Page..")
         exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
-    if chon == 'SS':
+    if chon == '2':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/SSTool').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/SSTool?token=GHSAT0AAAAAACVUJWYEYTGA4SZWJOE5X4RAZVRS74A').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/Credits').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/Credits?token=GHSAT0AAAAAACVUJWYEJ46OCKL4YS7C6LP4ZVRTBFQ').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/Credits').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/Credits?token=GHSAT0AAAAAACVUJWYEJ46OCKL4YS7C6LP4ZVRTBFQ').text)
     else:
         continue
