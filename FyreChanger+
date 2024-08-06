@@ -55,7 +55,7 @@ nig = """
                                                 \033[1;39m└────────────────────┘                                                                            
 
 
-                                          \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft  \033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mScreen Share Tools
+                                          \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft  \033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mTools \033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mMinecraftGEN
 
 
                                                      \033[1;31m[\033[1;39mC\033[1;31m] \033[1;32mCredits
@@ -77,13 +77,17 @@ while True:
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
         exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/SSTool?token=GHSAT0AAAAAACVUJWYEYTGA4SZWJOE5X4RAZVRS74A').text)
+    if chon == '3':
+        os.system('cls')
+        print("                                            \033[1;39mLoading Screen Share Tools Page..")
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/MinecraftGen?token=GHSAT0AAAAAACVUJWYED3FTIKB4BCETPTHQZVRT3MQ').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEXHAFRGVPH4JKAMWKZVRTIFA').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEVVTHT2H4CUC3J2Y2ZVRTZFA').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEXHAFRGVPH4JKAMWKZVRTIFA').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEVVTHT2H4CUC3J2Y2ZVRTZFA').text)
     else:
         continue
