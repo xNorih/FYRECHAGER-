@@ -80,14 +80,14 @@ while True:
     if chon == '3':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/MinecraftGen?token=GHSAT0AAAAAACVUJWYED3FTIKB4BCETPTHQZVRT3MQ').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/MinecraftGenQ').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEVVTHT2H4CUC3J2Y2ZVRTZFA').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits?token=GHSAT0AAAAAACVUJWYEVVTHT2H4CUC3J2Y2ZVRTZFA').text)
+        exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/Credits').text)
     else:
         continue
