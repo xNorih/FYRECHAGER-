@@ -29,9 +29,9 @@ while True:
         print("Leaving SS-Tool")
         exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
     elif chon == '1':
-        webbrowser.open_new("https://www.youtube.com/watch?v=RjOOYjuOYf0")
+        webbrowser.open_new("https://www.youtube.com/watch?v=0GAwZ28OZpY")
     elif chon == '2':
-        webbrowser.open_new("https://www.youtube.com/watch?v=RjOOYjuOYf0")
+        webbrowser.open_new("https://www.youtube.com/watch?v=vNwgSTlcWaI")
     elif chon == 'E':
         exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
 
